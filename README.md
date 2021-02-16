@@ -1,2 +1,2 @@
-# pyliml
+# Pyliml
 LIML library for python
