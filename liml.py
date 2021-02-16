@@ -60,25 +60,3 @@ class LIML:
             self.lines.append(f"{val}\n")
          
       return ''.join(self.lines)
-
-
-with open("some.liml", "r") as f:
-   limlstr = f.read()
-
-
-# liml 객체 생성
-liml = LIML(limlstr)
-
-# 딕셔너리로 파싱
-print("Parsed: ", liml.toDict())
-print("\n")
-
-# 업데이트
-liml.addSection("some", [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024])
-liml.addSection("thing", ["a", "b", "c", "d", "e", "f"])
-
-# 업데이트된 liml 출력
-print(liml.toStr())
-
-# os.system("pause")
-
