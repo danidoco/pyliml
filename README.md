@@ -111,9 +111,7 @@ some ;comment
 If you write comment like this, parser cannot recognize that it is a comment.
 Parser will think ```some ;comment``` as a value
 
-## Using LIML Library
-LIML Library basically includes parser and writer. With this, you can parse and modify LIML file smoothly.
-
+## Supported Language
 
 Currently, LIML library supports the programming languages listed below.
 
